@@ -13,6 +13,8 @@ sudo apt install -y terminator \
                  doxygen \
                  docker.io \
                  curl \
+                 vim \
+                 openssh-client \
                  python2.7 \
                  python2.7-dev \
                  libssl-dev \
