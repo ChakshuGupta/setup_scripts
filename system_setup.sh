@@ -19,7 +19,7 @@ sudo apt install -y terminator \
                  python2.7-dev \
                  libssl-dev \
                  libffi-dev \
-                 python-dev
+                 xclip
 
 sudo pip3 install setuptools
 sudo pip3 install numpy
@@ -27,6 +27,10 @@ sudo pip3 install numpy
 git config --global user.name "Chakshu Gupta"
 git config --global user.email "chakshugupta@gmail.com"
 git config --global core.editor vim
+
+
+# ssh-keygen
+# xclip -sel clip < ~/.ssh/id_rsa.pub
 
 # Install Telegram
 sudo add-apt-repository ppa:atareao/telegram
