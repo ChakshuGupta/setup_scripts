@@ -32,7 +32,6 @@ sudo systemctl restart mongod
 
 # Install tshark
 
-sudo apt install -y libgcrypt11-dev
 sudo apt install -y qttools5-dev-tools qttools5-dev libqt5svg5-dev qtmultimedia5-dev
 
 # Install Optional Dependencies
@@ -42,7 +41,7 @@ sudo apt install -y libsnappy1v5 libsnappy-dev libsnappy-java libsnappy-jni
 sudo apt install -y libmaxminddb-dev libbrotli-dev libminizip-dev libspandsp-dev libcap-dev
 sudo apt install -y libnghttp2-dev libzstd-dev xsltproc
 
-sudo apt install -y cmake libglib2.0-dev libgcrypt20-dev flex yacc bison byacc \
+sudo apt install -y cmake libglib2.0-dev libgcrypt20-dev flex bison byacc \
   libpcap-dev qtbase5-dev libssh-dev libsystemd-dev qtmultimedia5-dev \
   libqt5svg5-dev
 
