@@ -9,6 +9,7 @@ sudo apt install -y \
                  curl \
                  docker.io \
                  doxygen \
+                 gdb \
                  git \
                  libffi-dev \
                  libssl-dev \
