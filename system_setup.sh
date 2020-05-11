@@ -3,26 +3,29 @@
 sudo apt update && upgrade
 
 # Setup development environment
-sudo apt install -y terminator \
-                 python3.8 \
-                 python3.8-dev \
-                 python3-pip \
-                 cmake \
-                 git \
+sudo apt install -y \
                  build-essential \
-                 doxygen \
-                 docker.io \
+                 cmake \
                  curl \
-                 vim \
+                 docker.io \
+                 doxygen \
+                 git \
+                 libffi-dev \
+                 libssl-dev \
                  openssh-client \
                  python2.7 \
                  python2.7-dev \
-                 libssl-dev \
-                 libffi-dev \
-                 xclip
+                 python3-pip \
+                 python3.8 \
+                 python3.8-dev \
+                 terminator \
+                 vim-gtk3 \
+                 virtualbox
+                 xclip \
 
-sudo pip3 install setuptools
-sudo pip3 install numpy
+pip3 install setuptools
+pip3 install numpy
+pip3 install pylint
 
 git config --global user.name "Chakshu Gupta"
 git config --global user.email "chakshugupta@gmail.com"
