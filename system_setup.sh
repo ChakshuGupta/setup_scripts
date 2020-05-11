@@ -9,10 +9,14 @@ sudo apt install -y \
                  curl \
                  docker.io \
                  doxygen \
+                 dpkg-dev \
                  gdb \
                  git \
+                 htop \
                  libffi-dev \
                  libssl-dev \
+                 libx11-dev \
+                 make \
                  openssh-client \
                  python2.7 \
                  python2.7-dev \
@@ -44,3 +48,9 @@ sudo apt update && sudo apt install -y telegram
 # Install Chrome
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install -y ./google-chrome-stable_current_amd64.deb
+
+cd
+git clone https://github.com/ChakshuGupta/dotvim.git .vim
+
+cd ~/.vim
+./install.sh
