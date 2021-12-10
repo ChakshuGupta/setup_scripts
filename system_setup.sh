@@ -63,3 +63,11 @@ rm -f packages.microsoft.gpg
 sudo apt install apt-transport-https
 sudo apt update
 sudo apt install code # or code-insiders
+
+
+# Install Virtualbox
+sudo apt install virtualbox
+sudo apt install virtualbox—ext–pack
+
+# Install Grub customiser
+sudo apt install grub-customizer
