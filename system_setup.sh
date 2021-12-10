@@ -30,6 +30,7 @@ pip3 install setuptools
 pip3 install numpy
 pip3 install pylint
 pip3 install ipython
+pip3 install virtualenv
 
 git config --global user.name "Chakshu Gupta"
 git config --global user.email "chakshugupta@gmail.com"
