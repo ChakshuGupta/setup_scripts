@@ -12,6 +12,7 @@ sudo apt install -y \
                  dpkg-dev \
                  gdb \
                  git \
+                 grub-customizer \
                  htop \
                  libffi-dev \
                  libssl-dev \
@@ -19,6 +20,7 @@ sudo apt install -y \
                  make \
                  openssh-client \
                  python3-pip \
+                 python3-venv \
                  python3.8 \
                  python3.8-dev \
                  terminator \
@@ -30,7 +32,8 @@ pip3 install setuptools
 pip3 install numpy
 pip3 install pylint
 pip3 install ipython
-pip3 install virtualenv
+pip3 install matplotlib
+pip3 install pandas
 
 git config --global user.name "Chakshu Gupta"
 git config --global user.email "chakshugupta@gmail.com"
@@ -68,6 +71,3 @@ sudo apt install code # or code-insiders
 # Install Virtualbox
 sudo apt install virtualbox
 sudo apt install virtualbox—ext–pack
-
-# Install Grub customiser
-sudo apt install grub-customizer
