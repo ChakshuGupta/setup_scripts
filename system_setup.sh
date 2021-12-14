@@ -71,3 +71,6 @@ sudo apt install code # or code-insiders
 # Install Virtualbox
 sudo apt install virtualbox
 sudo apt install virtualbox—ext–pack
+
+# Install Okular
+sudo apt install okular
